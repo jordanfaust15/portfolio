@@ -8,10 +8,10 @@ title: "About Me"
 
 <h1>Jordan Faust</h1>
 
-<a href="https://linkedin.com/in/your-profile" class="btn btn-outline-primary btn-sm" target="_blank">
+<a href="https://www.linkedin.com/in/jordan-faust-5a1028207" class="btn btn-outline-primary btn-sm" target="_blank">
   <i class="fab fa-linkedin"></i> LinkedIn
 </a>
-<a href="https://github.com/your-username" class="btn btn-outline-primary btn-sm" target="_blank">
+<a href="https://github.com/jordanfaust15" class="btn btn-outline-primary btn-sm" target="_blank">
   <i class="fab fa-github"></i> GitHub
 </a>
 
@@ -19,45 +19,75 @@ title: "About Me"
 
 ## Background
 
-Write a compelling narrative about your background, education, and what drives your passion for product management. This is your chance to tell your story and connect with potential employers or collaborators.
+I am currently studying Strategic Management at the BYU Marriott School of Business, with a focus on product- and project-oriented work at the intersection of business, design, and emerging technology. Through coursework and hands-on projects, I have learned to approach problems by first understanding users and context, then translating those insights into scalable systems, tools, and experiences.
+My interest in product management comes from turning ambiguity into clarity. I enjoy defining problems, collaborating across disciplines, and building thoughtful solutions that reduce friction and create real value. I am especially drawn to products that empower users, leverage AI and automation, and are grounded in empathy and strong design. I am motivated by impact, continuous learning, and the challenge of building products that matter.
 
-### Education
+## Education
 
-- **Degree Name**, University Name (Year)
-- **Relevant Coursework**: List key courses related to product management, analytics, or business
-- **Academic Achievements**: Honor societies, relevant projects, or awards
+- **Bachelor of Science in Strategic Management**, Brigham Young University, Marriott School of Business (2026)  
+- **Minor**: Anthropology  
+- **Relevant Coursework**: Product Strategy, Market Structure and Competitive Advantage, Behavioral Economics, Quantitative Analysis, Business Analytics  
+- **Academic Achievements**:  
+  - GPA: 3.76 / 4.00  
+  - Member of the Product Management Association and Management Consulting Association  
 
-### Experience
+---
 
-#### Job/Internship Title - Company Name
-*Dates*
+## Experience
 
-- Key accomplishment or responsibility
-- Another achievement with quantifiable results
-- Skills or technologies used
+### Product Management Intern – Enhanced AI  
+*Mar 2025 – Present*
 
-#### Another Position - Company Name
-*Dates*
+- Spearheaded the development of AI-powered workflows using a low-code platform, improving client productivity by 40 percent  
+- Conducted user research and analyzed customer feedback to identify feature gaps and inform product roadmap prioritization  
+- Collaborated cross-functionally with engineering and design teams to scope and launch three or more product features  
+- Created product documentation and video tutorials to support onboarding and customer success  
 
-- What you contributed to the organization
-- Projects you worked on
-- Impact you made
+### Strategy and Economics Teaching Assistant – BYU Marriott School of Business  
+*Milan, Italy | Jun 2025 – Present*
 
-### Skills & Interests
+- Assisted in delivering undergraduate course material in strategy and economics  
+- Led weekly discussion and review sessions for 40 or more students, clarifying complex economic models and strategic frameworks  
+- Provided individualized academic support through office hours, improving student performance in quantitative analysis and case interpretation  
 
-**Technical Skills**
-- Programming languages (Python, R, SQL)
-- Analytics tools (Tableau, Power BI, Google Analytics)
-- Product management tools (Jira, Confluence, Figma)
+### Strategic Project Management Intern – Elavare  
+*Oct 2024 – Dec 2024*
 
-**Soft Skills**
-- Communication and presentation
-- Cross-functional collaboration
-- Strategic thinking and problem-solving
+- Produced the first instructional module for Elavare Academy and delivered end-user training to support adoption  
+- Coordinated and executed the Elavare Summit, a professional seminar with 50 or more attendees  
+- Designed a segmented business model introducing a freemium pricing strategy to increase user acquisition and engagement  
 
-**Interests**
-Share what you're passionate about outside of work - this helps humanize your professional brand and can be great conversation starters.
+### Patient Registration Representative – Intermountain Health (R1 Revenue Cycle Management)  
+*Jun 2021 – Mar 2025*
 
-### What's Next
+- Reduced patient wait times by 30 percent by co-developing optimized workflows with clinicians  
+- Identified bottlenecks in registration procedures and implemented standardized, scalable processes, reducing user error by 15 percent  
+- Maintained 90 percent billing accuracy while supporting insurance verification through data-driven process improvements  
 
-Describe your career goals and what type of opportunities you're seeking. This helps visitors understand how they might work with you or whether you'd be a good fit for their organization.
+---
+
+## Skills & Interests
+
+### Technical Skills
+- SQL, Tableau  
+- Excel (Solver, Pivot Tables, Charts)  
+- HTML, CSS, Bootstrap, VBA  
+- Mendix, Cursor, ClickUp  
+
+### Product & Soft Skills
+- User research and requirements gathering  
+- Cross-functional collaboration  
+- Strategic thinking and problem solving  
+- Clear communication and stakeholder alignment  
+
+### Interests
+- **Productivity Systems**: Designing efficient scheduling and workflow systems using Google Calendar  
+- **Design and Fashion**: Designed, marketed, and sold over 20 original clothing pieces  
+- **Language and Culture**: Fluent in Spanish with over one year living abroad in Peru  
+
+---
+
+## What’s Next
+
+I am seeking product management or product-focused roles where I can work closely with design and engineering teams to build user-centered products. I am especially interested in opportunities involving AI, automation, and tools that create meaningful leverage for users.
+
