@@ -1,179 +1,199 @@
 ---
-title: "Business Case Presentation"
-description: "Pitch deck and strategic business case for new product development"
-date: "2024-10-01"
-image: ../images/project2-preview.jpg
-categories: [Business Strategy, Pitch Deck, Product Development]
+title: "Scripture Study - Illuminated Companion"
+date: "2026-01-22"
+categories: [Web App, React, Vite, Tailwind CSS, Claude Code]
 ---
 
-## Assignment Overview
+## Overview
 
-This project focused on developing a comprehensive business case and pitch presentation for a new product opportunity. The assignment required identifying a market need, analyzing the opportunity, and presenting a compelling case for why the product should be built and funded.
+This project involved using Claude Code to develop a **scripture study companion app** with a distinctive "Illuminated Manuscript" aesthetic inspired by medieval religious texts. The app helps users track their daily study habits, read scriptures, create topical studies, and journal their spiritual insights.
 
-## Executive Summary
+The primary purpose of this app is to:
 
-**Product Concept**: [Brief description of your proposed product/service]
+- Encourage consistent daily scripture study through streak tracking and visual progress
+- Provide an organized way to read and navigate the Book of Mormon and Bible
+- Enable topical study creation with scripture references and personal notes
+- Offer a beautiful journaling experience for recording spiritual impressions
 
-**Market Opportunity**: [Size and growth potential of target market]
+## Key Features
 
-**Investment Required**: [Estimated funding needed]
+- **Study Streak Tracking**: Visual flame icon with animated glow effects, milestone celebrations, and longest streak records
+- **Scripture Reader**: Hierarchical navigation through volumes, books, and chapters with elegant card-based UI
+- **Guided Studies**: Create custom topical studies, add scripture references, and record study notes
+- **Personal Journal**: Write entries with beautiful drop-cap styling and date formatting
+- **Progress Dashboard**: Monthly calendar view, stats cards with gold shimmer animations, and activity history
+- **Illuminated Manuscript Design**: Deep navy backgrounds, gold accents, Cormorant Garamond & Crimson Pro typography
+- **Responsive Design**: Fully mobile-friendly with smooth animations and transitions
+- **Local Storage Persistence**: All data saved locally for privacy and offline access
 
-**Expected Return**: [Projected revenue and profitability timeline]
+## Design Philosophy
 
-**Recommendation**: [Clear go/no-go recommendation with supporting rationale]
+The app draws inspiration from **medieval illuminated manuscripts**—hand-crafted religious texts featuring ornate borders, gilded lettering, and deep jewel tones. Key design elements include:
 
-## Problem Statement
+| Element | Implementation |
+|---------|----------------|
+| Typography | Cormorant Garamond (headings), Crimson Pro (body) |
+| Color Palette | Midnight navy (#0a0f1a), Gold (#d4a853), Parchment (#f4e8d3) |
+| Decorative Details | Corner ornaments, gradient borders, ornate dividers |
+| Animations | Gold shimmer text, staggered fade-ins, flame flicker, pulse glow |
+| Textures | Subtle noise overlay, radial gradient accents |
 
-### Market Problem
-- **Issue Identification**: What specific problem does your product solve?
-- **Target Audience**: Who experiences this problem most acutely?
-- **Current Solutions**: How are people solving this problem today?
-- **Gap Analysis**: What's missing from existing solutions?
+## Live Product Demo
 
-### Quantifying the Problem
-- **Market Size**: How many people/organizations face this issue?
-- **Economic Impact**: What does this problem cost users currently?
-- **Urgency**: Why is now the right time to solve this problem?
-- **Evidence**: What data supports the existence and scale of this problem?
+<div class="d-flex justify-content-center gap-3 my-4">
+  <!-- Open App button -->
+  <a class="btn btn-primary d-inline-flex align-items-center"
+     href="https://scripture-study-kohl.vercel.app"
+     target="_blank" rel="noopener"
+     aria-label="Open live app">
+    <i class="fa-solid fa-window-restore me-2" aria-hidden="true"></i>
+    Open App in New Tab
+  </a>
 
-## Market Analysis
+  <!-- GitHub Source button -->
+  <a class="btn btn-outline-dark d-inline-flex align-items-center"
+     href="https://github.com/jordanfaust15/scripture-study"
+     target="_blank" rel="noopener"
+     aria-label="Open GitHub source">
+    <i class="fa-brands fa-github me-2" aria-hidden="true"></i>
+    View source on GitHub
+  </a>
+</div>
 
-### Industry Overview
-- **Market Size**: Total Addressable Market (TAM), Serviceable Addressable Market (SAM)
-- **Growth Trends**: Historical growth rates and future projections
-- **Key Drivers**: What factors are driving market growth?
-- **Market Maturity**: Where is this market in its lifecycle?
+<iframe src="https://scripture-study-kohl.vercel.app"
+        style="width:100%; height:900px; border:none; border-radius:8px;"
+        allowfullscreen>
+</iframe>
 
-### Competitive Landscape
-- **Direct Competitors**: Who offers similar solutions?
-- **Indirect Competitors**: What alternative approaches exist?
-- **Competitive Advantages**: How will you differentiate?
-- **Market Positioning**: Where will you fit in the competitive landscape?
+## Technical Details
 
-### Customer Analysis
-- **Target Segments**: Primary and secondary customer groups
-- **User Personas**: Detailed profiles of ideal customers
-- **Buying Behavior**: How do customers make purchase decisions?
-- **Price Sensitivity**: What are customers willing to pay?
+**Framework/Stack:** React 19, Vite 7, Tailwind CSS 4
 
-## Solution Overview
+**Deployment:** Vercel
 
-### Product Vision
-- **Core Value Proposition**: What unique value do you provide?
-- **Key Features**: What are the essential product capabilities?
-- **User Experience**: How will customers interact with your product?
-- **Differentiation**: What makes your solution superior?
+**Tools Used:**
 
-### Product Strategy
-- **Development Approach**: Build vs. buy vs. partner decisions
-- **Technology Stack**: What technical foundation will you use?
-- **Scalability**: How will the product grow with demand?
-- **Innovation**: What makes this solution innovative?
+- Claude Code for full development (design + implementation)
+- Vite for fast development and optimized builds
+- Tailwind CSS 4 with custom theme configuration
+- React Router for client-side navigation
+- localStorage for data persistence
 
-## Business Model
+## Project Structure
 
-### Revenue Model
-- **Pricing Strategy**: How will you price your product?
-- **Revenue Streams**: What are your sources of income?
-- **Customer Acquisition**: How will you attract customers?
-- **Unit Economics**: What are your cost and revenue per customer?
+| File/Folder | Purpose |
+|-------------|---------|
+| `src/components/Layout.jsx` | App shell with navigation header and footer |
+| `src/pages/Home.jsx` | Dashboard with streak card and quick links |
+| `src/pages/ScriptureReader.jsx` | Volume/book/chapter navigation |
+| `src/pages/GuidedStudy.jsx` | Topical study creation and management |
+| `src/pages/Journal.jsx` | Personal journaling interface |
+| `src/pages/Progress.jsx` | Stats, calendar, and activity tracking |
+| `src/hooks/useStreak.js` | Study streak logic and localStorage sync |
+| `src/hooks/useNotes.js` | Journal and verse notes management |
+| `src/index.css` | Custom design system and animations |
 
-### Financial Projections
-- **Revenue Forecast**: 3-5 year revenue projections
-- **Cost Structure**: Development, operational, and marketing costs
-- **Profitability Timeline**: When will you reach break-even?
-- **Investment Requirements**: Funding needed for different milestones
+## Screenshots
 
-### Go-to-Market Strategy
-- **Launch Strategy**: How will you introduce the product?
-- **Marketing Channels**: How will you reach customers?
-- **Sales Strategy**: Direct, partner, or hybrid approach?
-- **Customer Success**: How will you ensure customer satisfaction?
+::: {layout-ncol=2}
+![Home Dashboard](../images/scripture-home.png){group="screenshots"}
 
-## Implementation Plan
+![Scripture Reader](../images/scripture-reader.png){group="screenshots"}
 
-### Development Roadmap
-- **Phase 1**: MVP development and initial testing
-- **Phase 2**: Full product launch and market entry  
-- **Phase 3**: Scale and expansion opportunities
-- **Milestones**: Key deliverables and timeline
+![Progress Tracking](../images/scripture-progress.png){group="screenshots"}
 
-### Resource Requirements
-- **Team Structure**: What roles and skills are needed?
-- **Technology Infrastructure**: What systems and tools are required?
-- **Capital Requirements**: Funding needs by phase
-- **Strategic Partnerships**: What alliances will accelerate success?
+![Journal Entry](../images/scripture-journal.png){group="screenshots"}
+:::
 
-### Risk Analysis
-- **Market Risks**: What could change in the market?
-- **Technical Risks**: What development challenges might arise?
-- **Competitive Risks**: How might competitors respond?
-- **Mitigation Strategies**: How will you address each risk?
+<p class="text-muted"><em>Add screenshots to the images folder: <code>scripture-home.png</code>, <code>scripture-reader.png</code>, <code>scripture-progress.png</code>, <code>scripture-journal.png</code></em></p>
 
-## Success Metrics
+## Product Requirements Document
 
-### Key Performance Indicators
-- **Customer Metrics**: Acquisition, retention, satisfaction
-- **Business Metrics**: Revenue, profitability, market share
-- **Product Metrics**: Usage, engagement, feature adoption
-- **Operational Metrics**: Efficiency, quality, scalability
+### 1. Product Overview
 
-### Success Criteria
-- **Short-term (6 months)**: [Specific measurable goals]
-- **Medium-term (1-2 years)**: [Growth and market position targets]
-- **Long-term (3-5 years)**: [Vision achievement and expansion goals]
+**Product Name:** Scripture Study - Illuminated Companion
+**Product Type:** Progressive Web Application
+**Target Platform:** Web (desktop and mobile browsers)
 
-## Investment Recommendation
+### 2. Problem Statement
 
-### Case for Investment
-1. **Market Opportunity**: Large, growing market with clear need
-2. **Competitive Advantage**: Defensible differentiation and positioning
-3. **Team Capability**: Right skills and experience to execute
-4. **Financial Returns**: Attractive risk-adjusted return potential
-5. **Strategic Fit**: Aligns with organizational goals and capabilities
+Scripture study is essential for spiritual growth, but many people struggle with:
 
-### Expected Outcomes
-- **Revenue Impact**: [Projected revenue contribution]
-- **Market Position**: [Expected market share and positioning]
-- **Strategic Value**: [Broader organizational benefits]
-- **Growth Platform**: [Future expansion opportunities]
+- Maintaining consistent daily study habits
+- Organizing insights across multiple scripture sources
+- Tracking progress and staying motivated
+- Finding a reverent, distraction-free study environment
 
-## Next Steps
+### 3. Target Users
 
-### Immediate Actions (30 days)
-- [ ] Secure initial funding/approval
-- [ ] Finalize team structure and hiring
-- [ ] Complete technical feasibility analysis
-- [ ] Develop detailed project plan
+- Individuals seeking to deepen their scripture study practice
+- Members of The Church of Jesus Christ of Latter-day Saints
+- Anyone wanting to track spiritual study habits with beautiful design
+- Users who appreciate thoughtful, reverent UI/UX
 
-### Short-term Milestones (90 days)
-- [ ] Complete market validation research
-- [ ] Build MVP and conduct user testing
-- [ ] Establish key partnerships
-- [ ] Refine go-to-market strategy
+### 4. Core Features
 
-### Long-term Goals (1 year)
-- [ ] Launch product to target market
-- [ ] Achieve customer acquisition targets
-- [ ] Demonstrate product-market fit
-- [ ] Plan expansion opportunities
+#### 4.1 Streak Tracking
+- **Daily check-in**: Mark study completion with one tap
+- **Streak counter**: Visual display of consecutive study days
+- **Milestone celebrations**: Special recognition at 7, 14, 30, 60, 90, 100, 180, 365 days
+- **Streak recovery**: Grace period logic for maintaining motivation
 
-## Appendices
+#### 4.2 Scripture Navigation
+- **Volume selection**: Book of Mormon and Bible (KJV)
+- **Book listing**: All books within each volume
+- **Chapter grid**: Quick access to any chapter
+- **Reading view**: Clean, distraction-free scripture display
 
-### Supporting Data
-- Market research reports and analysis
-- Customer interview findings
-- Competitive analysis details
-- Financial model assumptions
+#### 4.3 Guided Studies
+- **Topic creation**: Name and organize study themes
+- **Reference collection**: Add scripture references to each study
+- **Personal notes**: Record insights for each topic
+- **Study management**: Edit and delete studies as needed
 
-### Presentation Materials
-- **Slide Deck**: [Link to presentation slides]
-- **Executive Summary**: [One-page business case summary]  
-- **Financial Model**: [Detailed financial projections]
-- **Supporting Research**: [Market data and analysis]
+#### 4.4 Journaling
+- **Rich entries**: Title and content for each journal entry
+- **Date tracking**: Automatic timestamp for all entries
+- **Drop-cap styling**: Beautiful first-letter illumination
+- **Entry management**: View, create, and delete entries
+
+#### 4.5 Progress Visualization
+- **Stats cards**: Current streak, longest streak, total days
+- **Calendar view**: Monthly grid showing study days
+- **Activity feed**: Recent study session history
+
+### 5. Technical Requirements
+
+| Requirement | Specification |
+|-------------|---------------|
+| Framework | React 19 with functional components and hooks |
+| Build Tool | Vite 7 for fast HMR and optimized production builds |
+| Styling | Tailwind CSS 4 with custom design tokens |
+| Routing | React Router v7 for client-side navigation |
+| State | React hooks + localStorage for persistence |
+| Hosting | Vercel (serverless edge deployment) |
+| Browser Support | Modern browsers (Chrome, Firefox, Safari, Edge) |
+
+### 6. Success Metrics
+
+- App loads in under 2 seconds
+- Smooth 60fps animations on all devices
+- Daily active user retention > 50%
+- Mobile-responsive at all breakpoints
+- Accessibility score > 90 (Lighthouse)
+
+### 7. Development Approach
+
+Built using **Claude Code** as an AI pair-programming assistant to:
+
+- Design and implement a distinctive visual aesthetic
+- Create reusable React components with proper state management
+- Build custom hooks for data persistence
+- Implement responsive layouts with Tailwind CSS
+- Add meaningful animations and micro-interactions
 
 ---
 
-**Skills Demonstrated:** Business Strategy, Market Analysis, Financial Modeling, Presentation Design, Strategic Planning
+**Skills Demonstrated:** React Development, UI/UX Design, CSS Animation, State Management, Responsive Design, Design Systems
 
-**Tools Used:** PowerPoint/Keynote, Excel/Google Sheets, Market Research Databases, Survey Tools
+**Tools Used:** Claude Code, React, Vite, Tailwind CSS, Vercel, localStorage API

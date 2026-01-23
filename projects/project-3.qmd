@@ -1,143 +1,173 @@
 ---
-title: "Market Entry Strategy Analysis"
-description: "Comprehensive market research and go-to-market strategy for new product launch"
-date: "2024-01-10"
-image: ../images/project3-preview.jpg
-categories: [Strategy, Market Research, Business Development]
+title: "Problem Tracker - Startup Idea Generator"
+date: "2026-01-20"
+categories: [Web App, Python, Streamlit, Product Discovery, Claude Code]
 ---
 
-## Project Overview
+## Overview
 
-Summarize the market entry challenge and your role in developing the strategy. What new market or product category were you analyzing?
+A personal problem-tracking application designed to systematically capture everyday frustrations and pain points, with the goal of identifying promising startup ideas. Built with Streamlit for rapid prototyping.
 
-## Executive Summary
+The core insight: **The best startup ideas come from problems founders experience personally.** This tool helps build the habit of noticing and documenting problems in daily life, then analyzing them for business potential.
 
-Provide a high-level overview of your recommendations and the expected impact. This section should be accessible to both technical and business stakeholders.
+## Key Features
 
-## Market Analysis
+- **Quick Problem Capture**: Simple form to log frustrations as they happen
+- **Frequency Tracking**: Rate how often problems occur (Rarely → Constantly)
+- **Problem Library**: View all captured problems sorted by recency
+- **Persistent Storage**: JSON-based storage keeps your problems saved
+- **Clean Interface**: Streamlit's minimal UI keeps focus on capturing insights
+- **Delete Management**: Remove irrelevant problems to keep list focused
 
-### Industry Landscape
-- What is the size and growth rate of the target market?
-- Who are the major players and what market share do they hold?
-- What are the key industry trends and drivers?
+## The Problem Discovery Process
 
-### Competitive Analysis
-- Who are your direct and indirect competitors?
-- What are their strengths, weaknesses, and market positioning?
-- Where are the gaps and opportunities?
+| Phase | Folder | Purpose |
+|-------|--------|---------|
+| **Capture** | `notes/` | Record problems throughout the day with specific details |
+| **Research** | `research/` | Investigate promising problems, analyze market & competition |
+| **Prototype** | `prototypes/` | Build quick MVPs to test assumptions |
 
-### Customer Analysis
-- Who is your target customer?
-- What are their needs, pain points, and preferences?
-- How do they currently solve the problem you're addressing?
+## Live Product Demo
 
-## Strategic Framework
+<div class="d-flex justify-content-center gap-3 my-4">
+  <!-- GitHub Source button -->
+  <a class="btn btn-outline-dark d-inline-flex align-items-center"
+     href="https://github.com/jordanfaust15/problem-tracker"
+     target="_blank" rel="noopener"
+     aria-label="Open GitHub source">
+    <i class="fa-brands fa-github me-2" aria-hidden="true"></i>
+    View source on GitHub
+  </a>
+</div>
 
-### Market Opportunity
-- What specific opportunity did you identify?
-- How large is the addressable market?
-- What factors make this the right time to enter?
+### Running Locally
 
-### Value Proposition
-- What unique value does your product/service offer?
-- How does it differentiate from existing solutions?
-- Why would customers choose you over alternatives?
+```bash
+cd problem-tracker/prototypes
+pip install -r requirements.txt
+streamlit run app.py
+```
 
-### Go-to-Market Strategy
-- What channels will you use to reach customers?
-- How will you price your offering?
-- What partnerships or alliances are needed?
+## Sample Problems Captured
 
-## Research Methodology
+Here are real problems logged during initial use:
 
-### Data Sources
-- What primary research did you conduct?
-- Which secondary sources did you leverage?
-- How did you ensure data quality and reliability?
+| Problem | Frequency | Insight |
+|---------|-----------|---------|
+| Meal planning with existing inventory | Weekly | Hard to know what to cook with current food |
+| Parking at specific times | Weekly | Time-based parking pain points |
+| Feeling rushed in personal study | Daily | Perfectionism blocking spiritual habits |
+| Tracking work/internship progress | Constantly | Context-switching kills productivity |
+| Food inventory management | Constantly | Items get lost, duplicates purchased |
 
-### Analysis Techniques
-- What frameworks did you apply (Porter's Five Forces, SWOT, etc.)?
-- Which quantitative and qualitative methods did you use?
-- How did you validate your assumptions?
+## Technical Details
 
-## Key Findings
+**Framework/Stack:** Python 3, Streamlit
 
-### Market Insights
-Present your 3-5 most important discoveries:
+**Data Storage:** JSON file (local persistence)
 
-1. **Insight #1**: Description and implications
-2. **Insight #2**: Description and implications  
-3. **Insight #3**: Description and implications
+**Tools Used:**
 
-### Customer Insights
-- What did you learn about customer behavior and preferences?
-- What unmet needs did you identify?
-- How price-sensitive is the target market?
+- Streamlit for rapid UI prototyping
+- Python's pathlib for file handling
+- JSON for lightweight data storage
+- Claude Code for development assistance
 
-## Strategic Recommendations
+## Code Architecture
 
-### Market Entry Approach
-- What entry strategy do you recommend (direct, partnership, acquisition)?
-- What should be the geographic focus?
-- What's the optimal timing for launch?
+```python
+# Core data flow
+load_problems()  # Read from problems.json
+    ↓
+st.form()        # Capture new problem
+    ↓
+save_problems()  # Persist to JSON
+    ↓
+st.container()   # Display problem cards
+```
 
-### Product Strategy
-- What features should be prioritized for launch?
-- How should the product be positioned?
-- What pricing strategy will maximize adoption?
+## Project Structure
 
-### Resource Requirements
-- What investment is needed?
-- What capabilities must be developed?
-- What partnerships are critical for success?
+| File/Folder | Purpose |
+|-------------|---------|
+| `prototypes/app.py` | Main Streamlit application |
+| `prototypes/problems.json` | Persisted problem data |
+| `notes/` | Daily problem journals and observations |
+| `research/` | Market research and competitor analysis |
+| `CLAUDE.md` | Project documentation and guidelines |
 
-## Implementation Roadmap
+## Evaluating Startup Ideas
 
-### Phase 1: Foundation (Months 1-3)
-- Key activities and milestones
-- Resource requirements
-- Success metrics
+The app encourages rating potential ideas on:
 
-### Phase 2: Launch (Months 4-9)
-- Go-to-market execution
-- Customer acquisition strategy
-- Performance monitoring
+1. **Problem Severity** — Vitamin (nice-to-have) or painkiller (must-have)?
+2. **Frequency** — How often do people experience this?
+3. **Market Size** — How many people have this problem?
+4. **Willingness to Pay** — Will people spend money to solve it?
+5. **Founder-Market Fit** — Are you the right person to solve this?
 
-### Phase 3: Scale (Months 10-18)
-- Expansion opportunities
-- Optimization initiatives
-- Long-term growth strategy
+## Product Requirements Document
 
-## Risk Assessment
+### 1. Product Overview
 
-### Key Risks
-- What are the primary threats to success?
-- How likely are these risks to materialize?
-- What would be the potential impact?
+**Product Name:** Problem Tracker
+**Product Type:** Desktop Web Application (Streamlit)
+**Target Platform:** Local development / Streamlit Cloud
 
-### Mitigation Strategies
-- How can each risk be reduced or eliminated?
-- What contingency plans should be developed?
-- What early warning indicators should be monitored?
+### 2. Problem Statement
 
-## Expected Outcomes
+Aspiring entrepreneurs often struggle to:
 
-### Financial Projections
-- What revenue potential do you forecast?
-- What are the key cost drivers?
-- When do you expect to reach profitability?
+- Notice problems in their daily lives (habituation blinds us)
+- Document problems systematically before forgetting details
+- Evaluate which problems have startup potential
+- Build the "problem noticing" habit consistently
 
-### Success Metrics
-- How will you measure progress and success?
-- What leading and lagging indicators will you track?
-- What are the key performance benchmarks?
+### 3. Target Users
 
-## Conclusion
+- Aspiring entrepreneurs looking for startup ideas
+- Product managers seeking customer pain points
+- Students in entrepreneurship/product courses
+- Anyone wanting to become more observant of friction
 
-Summarize your recommendations and their strategic importance. Emphasize the opportunity size, competitive advantages, and expected returns on investment.
+### 4. Core Features
+
+#### 4.1 Problem Capture
+- **Title field**: Quick summary of the problem
+- **Description**: Detailed context and emotional impact
+- **Frequency selector**: Slide from Rarely to Constantly
+- **One-click save**: Immediate persistence
+
+#### 4.2 Problem Library
+- **Reverse chronological**: Newest problems first
+- **Card-based display**: Clean, scannable format
+- **Frequency metric**: Visual indicator of occurrence rate
+- **Delete capability**: Remove irrelevant entries
+
+#### 4.3 Data Persistence
+- **JSON storage**: Simple, portable format
+- **Auto-save**: No manual save button needed
+- **Local-first**: Data stays on your machine
+
+### 5. Technical Requirements
+
+| Requirement | Specification |
+|-------------|---------------|
+| Language | Python 3.10+ |
+| Framework | Streamlit |
+| Storage | JSON file |
+| Dependencies | streamlit only |
+
+### 6. Future Enhancements
+
+- **Severity rating**: Add pain level (1-10) metric
+- **Categories/Tags**: Group problems by domain
+- **Export to CSV**: Analyze in spreadsheets
+- **Streamlit Cloud deployment**: Share publicly
+- **AI analysis**: Use LLM to suggest startup angles
 
 ---
 
-**Skills Demonstrated:** Market Research, Strategic Analysis, Business Planning, Financial Modeling, Competitive Intelligence, Stakeholder Communication
+**Skills Demonstrated:** Python Development, Rapid Prototyping, Product Discovery, Data Persistence, Streamlit
 
-**Tools Used:** Excel, Tableau, Survey Tools, Industry Databases, Financial Modeling Software
+**Tools Used:** Claude Code, Python, Streamlit, JSON

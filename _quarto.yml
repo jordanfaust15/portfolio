@@ -4,7 +4,7 @@ project:
 
 website:
   title: ""
-  favicon: images/prototyping-favicon.png
+  # favicon: images/prototyping-favicon.png  # Add your favicon image here
   navbar:
     background: primary
     left:
@@ -15,9 +15,11 @@ website:
       - text: Projects
         menu:
           - href: projects/project-1.qmd
-            text: Name of my first app
-          #- href: projects/project-2.qmd
-          #  text: Business Case Presentation
+            text: Finger Ninja Game
+          - href: projects/project-2.qmd
+            text: Scripture Study
+          - href: projects/project-3.qmd
+            text: Problem Tracker
           #- href: projects/project-3.qmd
           #  text: Project 3
           #- href: projects/project-4.qmd
