@@ -40,6 +40,11 @@ The core insight: **The best startup ideas come from problems founders experienc
   </a>
 </div>
 
+::: {.callout-note}
+## Deploy to Streamlit Cloud
+To deploy this app live, visit [share.streamlit.io](https://share.streamlit.io), connect your GitHub account, and select the `problem-tracker` repo with `prototypes/app.py` as the main file.
+:::
+
 ### Running Locally
 
 ```bash
