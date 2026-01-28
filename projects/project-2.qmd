@@ -93,20 +93,6 @@ The app draws inspiration from **medieval illuminated manuscripts**—hand-craft
 | `src/hooks/useNotes.js` | Journal and verse notes management |
 | `src/index.css` | Custom design system and animations |
 
-## Screenshots
-
-::: {layout-ncol=2}
-![Home Dashboard](../images/scripture-home.png){group="screenshots"}
-
-![Scripture Reader](../images/scripture-reader.png){group="screenshots"}
-
-![Progress Tracking](../images/scripture-progress.png){group="screenshots"}
-
-![Journal Entry](../images/scripture-journal.png){group="screenshots"}
-:::
-
-<p class="text-muted"><em>Add screenshots to the images folder: <code>scripture-home.png</code>, <code>scripture-reader.png</code>, <code>scripture-progress.png</code>, <code>scripture-journal.png</code></em></p>
-
 ## Product Requirements Document
 
 ### 1. Product Overview
