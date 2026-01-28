@@ -32,7 +32,7 @@ The core insight: **The best startup ideas come from problems founders experienc
 <div class="d-flex justify-content-center gap-3 my-4">
   <!-- Open App button -->
   <a class="btn btn-primary d-inline-flex align-items-center"
-     href="https://problem-tracker-livid.vercel.app"
+     href="https://prototypes-indol.vercel.app"
      target="_blank" rel="noopener"
      aria-label="Open live app">
     <i class="fa-solid fa-window-restore me-2" aria-hidden="true"></i>
@@ -49,7 +49,7 @@ The core insight: **The best startup ideas come from problems founders experienc
   </a>
 </div>
 
-<iframe src="https://problem-tracker-livid.vercel.app"
+<iframe src="https://prototypes-indol.vercel.app"
         style="width:100%; height:900px; border:none; border-radius:8px;"
         allowfullscreen>
 </iframe>

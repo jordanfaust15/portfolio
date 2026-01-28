@@ -36,7 +36,7 @@ A study companion with an illuminated manuscript aesthetic—featuring streak tr
 A tool for capturing everyday frustrations to identify startup opportunities. Built on the principle that the best ideas come from personal pain points.
 
 [View Project →](projects/project-3.qmd){.btn .btn-primary}
-[Live Demo](https://problem-tracker-livid.vercel.app/){.btn .btn-outline-primary target="_blank"}
+[Live Demo](https://prototypes-indol.vercel.app/){.btn .btn-outline-primary target="_blank"}
 :::
 
 :::
