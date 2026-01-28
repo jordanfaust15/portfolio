@@ -4,7 +4,7 @@ project:
 
 website:
   title: "JORDAN FAUST"
-  favicon: images/favicon.svg
+  favicon: /images/favicon.svg
   navbar:
     background: dark
     left:
