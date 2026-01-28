@@ -1,0 +1,80 @@
+---
+title: "Problems I'm Exploring"
+---
+
+::: {.callout-tip}
+## How I Found These Problems
+These problems emerged from my daily practice of noticing friction in my own life using my [Problem Tracker](projects/project-3.qmd) tool. I believe the best solutions come from deeply understanding problems you experience firsthand.
+:::
+
+---
+
+## 1. Food Inventory Blindness
+
+**The Problem:** I frequently buy groceries without knowing what I already have at home, leading to duplicate purchases, forgotten items expiring in the back of the fridge, and constant uncertainty about what meals I can actually make with my current inventory.
+
+**Why This Matters to Me:** As someone who values efficiency and hates waste, the disconnect between what I own and what I buy feels like a solvable gap. I've thrown away spoiled produce, discovered I bought a third jar of salsa, and stood in my kitchen unable to figure out dinner despite a full pantry. This isn't just about saving money—it's about reducing the cognitive load of a task I do multiple times per week.
+
+**Why It's Worth Solving:** Household food waste is a $400+ billion problem in the U.S. alone. Beyond the financial impact, the mental overhead of meal planning without visibility into your inventory creates daily friction for millions of people. A simple system that bridges the gap between "what I have" and "what I need" could transform how households approach food.
+
+---
+
+## 2. Context-Switching Between Work and Learning
+
+**The Problem:** I constantly juggle multiple internships, classes, and personal projects. Each time I switch contexts, I lose momentum re-establishing where I left off, what my priorities were, and what decisions I'd already made. Progress tracking lives in scattered notes, Slack threads, and memory.
+
+**Why This Matters to Me:** As a student with a product management internship and a teaching assistant role, my day involves rapid context-switching between completely different domains. The time spent "reloading" context adds up, and important details slip through the cracks. I've re-solved problems I'd already figured out and forgotten commitments I'd made in previous sessions.
+
+**Why It's Worth Solving:** Knowledge workers lose hours each week to context-switching costs. The tools we have—task managers, calendars, note apps—don't capture the *state* of our thinking. There's an opportunity to build systems that preserve decision context, not just tasks, making it easier to pick up exactly where you left off.
+
+---
+
+## 3. Time-Sensitive Parking Anxiety
+
+**The Problem:** Finding parking at specific times—before class, during peak hours, or in unfamiliar areas—creates unnecessary stress. I often leave earlier than needed "just in case," waste time circling lots, or end up late because I underestimated the situation.
+
+**Why This Matters to Me:** At BYU, parking availability changes dramatically throughout the day. The uncertainty forces me to build in buffer time that I could use productively, and the stress of potentially being late adds cognitive overhead to my mornings. It's a small daily friction that compounds over a semester.
+
+**Why It's Worth Solving:** Parking affects commuters everywhere—students, employees, event attendees. Real-time parking data exists but isn't easily accessible or predictive. A solution that helps people make informed decisions about when to leave and where to park could save millions of collective hours of circling and reduce the anxiety of time-sensitive arrivals.
+
+---
+
+## 4. Perfectionism Blocking Personal Habits
+
+**The Problem:** When I feel rushed or unable to do something "properly," I often skip it entirely. This is especially true for personal practices like scripture study, journaling, or exercise. The all-or-nothing mindset turns beneficial habits into sources of guilt rather than growth.
+
+**Why This Matters to Me:** I genuinely want to maintain meaningful daily practices, but my perfectionist tendencies sabotage consistency. If I can't do my "full" study session, I do nothing. If I'm running late, I skip the workout entirely. The irony is that partial effort over time would yield far better results than sporadic perfection.
+
+**Why It's Worth Solving:** Habit formation research consistently shows that consistency beats intensity. Yet most habit-tracking tools reinforce perfectionism with streak counts and binary "complete/incomplete" metrics. There's an opportunity to design systems that celebrate progress over perfection and help people reframe their relationship with personal practices.
+
+---
+
+## 5. Meal Planning Without Decision Fatigue
+
+**The Problem:** Even when I know what food I have, deciding what to actually cook requires mental energy I often don't have at 6 PM. The question "what should I eat?" becomes a daily drain, leading to repetitive meals, last-minute takeout, or skipping cooking altogether.
+
+**Why This Matters to Me:** I enjoy cooking when I have a plan, but the planning itself feels like a chore. By the time I need to decide, I'm already tired from the day. I default to the same few meals or give up entirely. The friction isn't in the cooking—it's in the deciding.
+
+**Why It's Worth Solving:** Decision fatigue is real, and food decisions happen multiple times daily. Recipe apps exist, but they optimize for discovery ("find something new") rather than decision support ("what should I make tonight with what I have, given my energy level"). A tool that reduces the decision burden while accounting for inventory and preferences could meaningfully improve daily life.
+
+---
+
+## What I'm Doing About It
+
+These aren't just complaints—they're opportunities I'm actively exploring. Some have become projects in my portfolio. Others are still in the research phase.
+
+If you're working on similar problems or want to discuss potential solutions, I'd love to connect.
+
+<div class="d-flex justify-content-center gap-3 my-4">
+  <a class="btn btn-primary d-inline-flex align-items-center"
+     href="https://www.linkedin.com/in/jordan-faust-5a1028207"
+     target="_blank" rel="noopener">
+    <i class="fab fa-linkedin me-2"></i>
+    Let's Connect
+  </a>
+  <a class="btn btn-outline-primary d-inline-flex align-items-center"
+     href="projects/project-3.qmd">
+    <i class="fas fa-lightbulb me-2"></i>
+    See My Problem Tracker
+  </a>
+</div>

@@ -41,8 +41,8 @@ The core insight: **The best startup ideas come from problems founders experienc
 </div>
 
 ::: {.callout-note}
-## Deploy to Streamlit Cloud
-To deploy this app live, visit [share.streamlit.io](https://share.streamlit.io), connect your GitHub account, and select the `problem-tracker` repo with `prototypes/app.py` as the main file.
+## Deploy to Vercel
+To deploy this app live, visit [vercel.com](https://vercel.com), connect your GitHub account, and import the `problem-tracker` repository. Vercel will automatically detect the framework and deploy.
 :::
 
 ### Running Locally
@@ -116,8 +116,8 @@ The app encourages rating potential ideas on:
 ### 1. Product Overview
 
 **Product Name:** Problem Tracker
-**Product Type:** Desktop Web Application (Streamlit)
-**Target Platform:** Local development / Streamlit Cloud
+**Product Type:** Web Application
+**Target Platform:** Local development / Vercel
 
 ### 2. Problem Statement
 
@@ -168,7 +168,7 @@ Aspiring entrepreneurs often struggle to:
 - **Severity rating**: Add pain level (1-10) metric
 - **Categories/Tags**: Group problems by domain
 - **Export to CSV**: Analyze in spreadsheets
-- **Streamlit Cloud deployment**: Share publicly
+- **Vercel deployment**: Share publicly
 - **AI analysis**: Use LLM to suggest startup angles
 
 ---
