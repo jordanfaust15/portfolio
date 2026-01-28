@@ -1,17 +1,19 @@
 ---
-title: "Welcome to My Product Management Portfolio"
+title: "Portfolio"
 ---
 
-::: {.hero-banner .text-center}
+::: {.hero-banner}
 
-<img src="images/profile.jpg" alt="add photo to /images" class="rounded-circle mb-3" width="160">
+<img src="images/profile.jpg" alt="Jordan Faust" class="rounded-circle">
 
-<h1>Jordan Faust</h1>
+# Jordan Faust
 
-<a href="https://www.linkedin.com/in/jordan-faust-5a1028207" class="btn btn-outline-primary btn-sm" target="_blank">
+Product Manager & Builder
+
+<a href="https://www.linkedin.com/in/jordan-faust-5a1028207" class="btn btn-primary" target="_blank">
   <i class="fab fa-linkedin"></i> LinkedIn
 </a>
-<a href="https://github.com/jordanfaust15" class="btn btn-outline-primary btn-sm" target="_blank">
+<a href="https://github.com/jordanfaust15" class="btn btn-outline-primary" target="_blank">
   <i class="fab fa-github"></i> GitHub
 </a>
 
@@ -21,28 +23,20 @@ title: "Welcome to My Product Management Portfolio"
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-md-6 .card .p-3}
-### [Ninja Game](projects/project-1.qmd)
-A game where your fingers become a ninja avatar, endlessly running and jumping across power lines, cars, and rooftops in a flowing, daydream-like world inspired by childhood imagination while staring out a car window.
-
-[View Project →](projects/project-1.qmd){.btn .btn-primary .btn-sm}
-[Live Demo](https://ninja-game-delta.vercel.app/){.btn .btn-outline-primary .btn-sm target="_blank"}
-:::
-
-::: {.g-col-12 .g-col-md-6 .card .p-3}
+::: {.g-col-12 .g-col-md-6}
 ### [Scripture Study](projects/project-2.qmd)
-A scripture study companion app with an "Illuminated Manuscript" aesthetic featuring streak tracking, scripture reading, guided studies, journaling, and progress visualization.
+A study companion with an illuminated manuscript aesthetic—featuring streak tracking, guided studies, journaling, and progress visualization.
 
-[View Project →](projects/project-2.qmd){.btn .btn-primary .btn-sm}
-[Live Demo](https://scripture-study-kohl.vercel.app/){.btn .btn-outline-primary .btn-sm target="_blank"}
+[View Project →](projects/project-2.qmd){.btn .btn-primary}
+[Live Demo](https://scripture-study-kohl.vercel.app/){.btn .btn-outline-primary target="_blank"}
 :::
 
-::: {.g-col-12 .g-col-md-6 .card .p-3}
+::: {.g-col-12 .g-col-md-6}
 ### [Problem Tracker](projects/project-3.qmd)
-A Streamlit app for capturing everyday frustrations to identify startup opportunities. Built on the principle that the best startup ideas come from problems founders experience personally.
+A tool for capturing everyday frustrations to identify startup opportunities. Built on the principle that the best ideas come from personal pain points.
 
-[View Project →](projects/project-3.qmd){.btn .btn-primary .btn-sm}
+[View Project →](projects/project-3.qmd){.btn .btn-primary}
+[Live Demo](https://problem-tracker-livid.vercel.app/){.btn .btn-outline-primary target="_blank"}
 :::
 
 :::
-

@@ -41,7 +41,7 @@ The core insight: **The best startup ideas come from problems founders experienc
 
   <!-- GitHub Source button -->
   <a class="btn btn-outline-dark d-inline-flex align-items-center"
-     href="https://github.com/jordanfaust15/problem-tracker"
+     href="https://github.com/jordanfaust15/ProblemTracker"
      target="_blank" rel="noopener"
      aria-label="Open GitHub source">
     <i class="fa-brands fa-github me-2" aria-hidden="true"></i>
