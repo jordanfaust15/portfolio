@@ -1,7 +1,7 @@
 ---
 title: "Problem Tracker - Startup Idea Generator"
 date: "2026-01-20"
-categories: [Web App, Python, Streamlit, Product Discovery, Claude Code]
+categories: [Web App, Python, Streamlit, Product Discovery, Claude Code, Vercel]
 ---
 
 ## Overview
@@ -30,6 +30,15 @@ The core insight: **The best startup ideas come from problems founders experienc
 ## Live Product Demo
 
 <div class="d-flex justify-content-center gap-3 my-4">
+  <!-- Open App button -->
+  <a class="btn btn-primary d-inline-flex align-items-center"
+     href="https://problem-tracker-livid.vercel.app"
+     target="_blank" rel="noopener"
+     aria-label="Open live app">
+    <i class="fa-solid fa-window-restore me-2" aria-hidden="true"></i>
+    Open App in New Tab
+  </a>
+
   <!-- GitHub Source button -->
   <a class="btn btn-outline-dark d-inline-flex align-items-center"
      href="https://github.com/jordanfaust15/problem-tracker"
@@ -40,10 +49,10 @@ The core insight: **The best startup ideas come from problems founders experienc
   </a>
 </div>
 
-::: {.callout-note}
-## Deploy to Vercel
-To deploy this app live, visit [vercel.com](https://vercel.com), connect your GitHub account, and import the `problem-tracker` repository. Vercel will automatically detect the framework and deploy.
-:::
+<iframe src="https://problem-tracker-livid.vercel.app"
+        style="width:100%; height:900px; border:none; border-radius:8px;"
+        allowfullscreen>
+</iframe>
 
 ### Running Locally
 
@@ -52,7 +61,7 @@ cd problem-tracker/prototypes
 pip install -r requirements.txt
 streamlit run app.py
 ```
-
+        
 ## Sample Problems Captured
 
 Here are real problems logged during initial use:
@@ -69,14 +78,16 @@ Here are real problems logged during initial use:
 
 **Framework/Stack:** Python 3, Streamlit
 
+**Deployment:** Vercel
+
 **Data Storage:** JSON file (local persistence)
 
 **Tools Used:**
 
-- Streamlit for rapid UI prototyping
 - Python's pathlib for file handling
 - JSON for lightweight data storage
 - Claude Code for development assistance
+- Vercel for hosting
 
 ## Code Architecture
 
@@ -168,11 +179,10 @@ Aspiring entrepreneurs often struggle to:
 - **Severity rating**: Add pain level (1-10) metric
 - **Categories/Tags**: Group problems by domain
 - **Export to CSV**: Analyze in spreadsheets
-- **Vercel deployment**: Share publicly
 - **AI analysis**: Use LLM to suggest startup angles
 
 ---
 
-**Skills Demonstrated:** Python Development, Rapid Prototyping, Product Discovery, Data Persistence, Streamlit
+**Skills Demonstrated:** Python Development, Rapid Prototyping, Product Discovery, Data Persistence, Streamlit, Vercel Deployment
 
-**Tools Used:** Claude Code, Python, Streamlit, JSON
+**Tools Used:** Claude Code, Python, Streamlit, JSON, Vercel
