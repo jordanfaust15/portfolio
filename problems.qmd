@@ -1,10 +1,11 @@
 ---
 title: "Problems"
+toc: false
 ---
 
 ::: {.hero-banner}
 
-# Problems I'm Exploring
+# Problems I'm *Exploring* <span class="star">&#10038;</span>
 
 Building solutions starts with understanding friction
 
@@ -67,7 +68,7 @@ These problems emerged from my daily practice of noticing friction in my own lif
 
 ---
 
-## What I'm Doing About It
+## What I'm Doing About It <span class="star star-small">&#10038;</span>
 
 These aren't just complaints—they're opportunities I'm actively exploring. Some have become projects in my portfolio. Others are still in the research phase.
 

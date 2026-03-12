@@ -2,7 +2,16 @@
 title: "Problem Tracker - Startup Idea Generator"
 date: "2026-01-20"
 categories: [Web App, Python, Streamlit, Product Discovery, Claude Code, Vercel]
+toc: true
 ---
+
+::: {.hero-banner}
+
+# Problem *Tracker* <span class="star">&#10038;</span>
+
+Startup Idea Generator
+
+:::
 
 ## Overview
 
@@ -10,7 +19,7 @@ A personal problem-tracking application designed to systematically capture every
 
 The core insight: **The best startup ideas come from problems founders experience personally.** This tool helps build the habit of noticing and documenting problems in daily life, then analyzing them for business potential.
 
-## Key Features
+## Key Features <span class="star star-small">&#10038;</span>
 
 - **Quick Problem Capture**: Simple form to log frustrations as they happen
 - **Frequency Tracking**: Rate how often problems occur (Rarely → Constantly)
@@ -27,10 +36,9 @@ The core insight: **The best startup ideas come from problems founders experienc
 | **Research** | `research/` | Investigate promising problems, analyze market & competition |
 | **Prototype** | `prototypes/` | Build quick MVPs to test assumptions |
 
-## Live Product Demo
+## Live Product Demo <span class="star star-small">&#10038;</span>
 
 <div class="d-flex justify-content-center gap-3 my-4">
-  <!-- Open App button -->
   <a class="btn btn-primary d-inline-flex align-items-center"
      href="https://prototypes-indol.vercel.app"
      target="_blank" rel="noopener"
@@ -39,7 +47,6 @@ The core insight: **The best startup ideas come from problems founders experienc
     Open App in New Tab
   </a>
 
-  <!-- GitHub Source button -->
   <a class="btn btn-outline-dark d-inline-flex align-items-center"
      href="https://github.com/jordanfaust15/ProblemTracker"
      target="_blank" rel="noopener"
@@ -50,7 +57,7 @@ The core insight: **The best startup ideas come from problems founders experienc
 </div>
 
 <iframe src="https://prototypes-indol.vercel.app"
-        style="width:100%; height:900px; border:none; border-radius:8px;"
+        style="width:100%; height:900px; border:none; border-radius:12px;"
         allowfullscreen>
 </iframe>
 
@@ -61,7 +68,7 @@ cd problem-tracker/prototypes
 pip install -r requirements.txt
 streamlit run app.py
 ```
-        
+
 ## Sample Problems Captured
 
 Here are real problems logged during initial use:
@@ -112,7 +119,7 @@ st.container()   # Display problem cards
 | `research/` | Market research and competitor analysis |
 | `CLAUDE.md` | Project documentation and guidelines |
 
-## Evaluating Startup Ideas
+## Evaluating Startup Ideas <span class="star star-small">&#10038;</span>
 
 The app encourages rating potential ideas on:
 

@@ -2,7 +2,16 @@
 title: "Scripture Study - Illuminated Companion"
 date: "2026-01-22"
 categories: [Web App, React, Vite, Tailwind CSS, Claude Code]
+toc: true
 ---
+
+::: {.hero-banner}
+
+# Scripture *Study* <span class="star">&#10038;</span>
+
+Illuminated Companion App
+
+:::
 
 ## Overview
 
@@ -15,7 +24,7 @@ The primary purpose of this app is to:
 - Enable topical study creation with scripture references and personal notes
 - Offer a beautiful journaling experience for recording spiritual impressions
 
-## Key Features
+## Key Features <span class="star star-small">&#10038;</span>
 
 - **Study Streak Tracking**: Visual flame icon with animated glow effects, milestone celebrations, and longest streak records
 - **Scripture Reader**: Hierarchical navigation through volumes, books, and chapters with elegant card-based UI
@@ -38,10 +47,9 @@ The app draws inspiration from **medieval illuminated manuscripts**—hand-craft
 | Animations | Gold shimmer text, staggered fade-ins, flame flicker, pulse glow |
 | Textures | Subtle noise overlay, radial gradient accents |
 
-## Live Product Demo
+## Live Product Demo <span class="star star-small">&#10038;</span>
 
 <div class="d-flex justify-content-center gap-3 my-4">
-  <!-- Open App button -->
   <a class="btn btn-primary d-inline-flex align-items-center"
      href="https://scripture-study-kohl.vercel.app"
      target="_blank" rel="noopener"
@@ -50,7 +58,6 @@ The app draws inspiration from **medieval illuminated manuscripts**—hand-craft
     Open App in New Tab
   </a>
 
-  <!-- GitHub Source button -->
   <a class="btn btn-outline-dark d-inline-flex align-items-center"
      href="https://github.com/jordanfaust15/scripture-study"
      target="_blank" rel="noopener"
@@ -61,7 +68,7 @@ The app draws inspiration from **medieval illuminated manuscripts**—hand-craft
 </div>
 
 <iframe src="https://scripture-study-kohl.vercel.app"
-        style="width:100%; height:900px; border:none; border-radius:8px;"
+        style="width:100%; height:900px; border:none; border-radius:12px;"
         allowfullscreen>
 </iframe>
 
@@ -93,7 +100,7 @@ The app draws inspiration from **medieval illuminated manuscripts**—hand-craft
 | `src/hooks/useNotes.js` | Journal and verse notes management |
 | `src/index.css` | Custom design system and animations |
 
-## Product Requirements Document
+## Product Requirements Document <span class="star star-small">&#10038;</span>
 
 ### 1. Product Overview
 

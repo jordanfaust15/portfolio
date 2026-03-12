@@ -1,16 +1,18 @@
 ---
 title: "About"
+toc: false
 ---
 
 ::: {.hero-banner}
 
-<img src="images/profile.jpg" alt="Jordan Faust" class="rounded-circle">
-
-# About Me
+# Hello, I'm *Jordan* <span class="star">&#10038;</span>
 
 Strategic Management · Product · Design
 
 :::
+
+<div class="two-col">
+<div class="two-col-main">
 
 ## Background
 
@@ -18,79 +20,131 @@ I am currently studying Strategic Management at the BYU Marriott School of Busin
 
 My interest in product management comes from turning ambiguity into clarity. I enjoy defining problems, collaborating across disciplines, and building thoughtful solutions that reduce friction and create real value. I am especially drawn to products that empower users, leverage AI and automation, and are grounded in empathy and strong design.
 
----
+## Experience <span class="star star-small">&#10038;</span>
+
+<div class="experience-card highlight">
+<div class="experience-header">
+<h3>Product Management Intern</h3>
+<span class="experience-date">Mar 2025 – Present</span>
+</div>
+<p class="experience-company">Enhanced AI</p>
+<ul>
+<li>Spearheaded the development of AI-powered workflows using a low-code platform, improving client productivity by 40%</li>
+<li>Conducted user research and analyzed customer feedback to identify feature gaps and inform product roadmap prioritization</li>
+<li>Collaborated cross-functionally with engineering and design teams to scope and launch 3+ product features</li>
+<li>Created product documentation and video tutorials to support onboarding and customer success</li>
+</ul>
+</div>
+
+<div class="experience-card">
+<div class="experience-header">
+<h3>Strategy and Economics Teaching Assistant</h3>
+<span class="experience-date">Jun 2025 – Present</span>
+</div>
+<p class="experience-company">BYU Marriott · Milan, Italy</p>
+<ul>
+<li>Assisted in delivering undergraduate course material in strategy and economics</li>
+<li>Led weekly discussion and review sessions for 40+ students</li>
+<li>Provided individualized academic support through office hours</li>
+</ul>
+</div>
+
+<div class="experience-card">
+<div class="experience-header">
+<h3>Strategic Project Management Intern</h3>
+<span class="experience-date">Oct 2024 – Dec 2024</span>
+</div>
+<p class="experience-company">Elavare</p>
+<ul>
+<li>Produced the first instructional module for Elavare Academy</li>
+<li>Coordinated and executed the Elavare Summit with 50+ attendees</li>
+<li>Designed a freemium pricing strategy to increase user acquisition</li>
+</ul>
+</div>
+
+<div class="experience-card">
+<div class="experience-header">
+<h3>Patient Registration Representative</h3>
+<span class="experience-date">Jun 2021 – Mar 2025</span>
+</div>
+<p class="experience-company">Intermountain Health</p>
+<ul>
+<li>Reduced patient wait times by 30% by co-developing optimized workflows</li>
+<li>Implemented standardized processes, reducing user error by 15%</li>
+<li>Maintained 90% billing accuracy through data-driven improvements</li>
+</ul>
+</div>
 
 ## Education
 
-- **Bachelor of Science in Strategic Management**, Brigham Young University, Marriott School of Business (2026)
-- **Minor**: Anthropology
-- **Relevant Coursework**: Product Strategy, Market Structure and Competitive Advantage, Behavioral Economics, Quantitative Analysis, Business Analytics
-- **Academic Achievements**:
-  - GPA: 3.76 / 4.00
-  - Member of the Product Management Association and Management Consulting Association
+<div class="experience-card">
+<h3>Bachelor of Science in Strategic Management</h3>
+<p class="experience-company">Brigham Young University, Marriott School of Business · Expected 2026</p>
+<ul>
+<li><strong>Minor:</strong> Anthropology</li>
+<li><strong>GPA:</strong> 3.76 / 4.00</li>
+<li><strong>Relevant Coursework:</strong> Product Strategy, Market Structure and Competitive Advantage, Behavioral Economics, Quantitative Analysis, Business Analytics</li>
+<li><strong>Activities:</strong> Product Management Association, Management Consulting Association</li>
+</ul>
+</div>
 
----
+## Skills <span class="star star-small">&#10038;</span>
 
-## Experience
+<div class="skills-grid">
+<div class="skill-item">
+<i class="fas fa-database"></i>
+<span>SQL</span>
+</div>
+<div class="skill-item">
+<i class="fas fa-chart-bar"></i>
+<span>Tableau</span>
+</div>
+<div class="skill-item">
+<i class="fas fa-file-excel"></i>
+<span>Excel</span>
+</div>
+<div class="skill-item">
+<i class="fas fa-code"></i>
+<span>HTML/CSS</span>
+</div>
+<div class="skill-item">
+<i class="fas fa-users"></i>
+<span>User Research</span>
+</div>
+<div class="skill-item">
+<i class="fas fa-sitemap"></i>
+<span>Strategy</span>
+</div>
+<div class="skill-item">
+<i class="fas fa-comments"></i>
+<span>Communication</span>
+</div>
+<div class="skill-item">
+<i class="fas fa-language"></i>
+<span>Spanish</span>
+</div>
+</div>
 
-### Product Management Intern – Enhanced AI
-*Mar 2025 – Present*
+## Interests
 
-- Spearheaded the development of AI-powered workflows using a low-code platform, improving client productivity by 40%
-- Conducted user research and analyzed customer feedback to identify feature gaps and inform product roadmap prioritization
-- Collaborated cross-functionally with engineering and design teams to scope and launch 3+ product features
-- Created product documentation and video tutorials to support onboarding and customer success
-
-### Strategy and Economics Teaching Assistant – BYU Marriott
-*Milan, Italy | Jun 2025 – Present*
-
-- Assisted in delivering undergraduate course material in strategy and economics
-- Led weekly discussion and review sessions for 40+ students
-- Provided individualized academic support through office hours
-
-### Strategic Project Management Intern – Elavare
-*Oct 2024 – Dec 2024*
-
-- Produced the first instructional module for Elavare Academy
-- Coordinated and executed the Elavare Summit with 50+ attendees
-- Designed a freemium pricing strategy to increase user acquisition
-
-### Patient Registration Representative – Intermountain Health
-*Jun 2021 – Mar 2025*
-
-- Reduced patient wait times by 30% by co-developing optimized workflows
-- Implemented standardized processes, reducing user error by 15%
-- Maintained 90% billing accuracy through data-driven improvements
-
----
-
-## Skills
-
-#### Technical
-- SQL, Tableau, Excel (Solver, Pivot Tables)
-- HTML, CSS, Bootstrap, VBA
-- Mendix, Cursor, ClickUp
-
-#### Product & Soft Skills
-- User research and requirements gathering
-- Cross-functional collaboration
-- Strategic thinking and problem solving
-- Clear communication and stakeholder alignment
-
-#### Interests
 - **Productivity Systems**: Designing efficient scheduling and workflow systems
 - **Design and Fashion**: Designed, marketed, and sold over 20 original clothing pieces
 - **Language and Culture**: Fluent in Spanish with over one year living abroad in Peru
 
----
+</div>
 
-## What's Next
-
-I am seeking product management or product-focused roles where I can work closely with design and engineering teams to build user-centered products. I am especially interested in opportunities involving AI, automation, and tools that create meaningful leverage for users.
-
-<a href="https://www.linkedin.com/in/jordan-faust-5a1028207" class="btn btn-primary" target="_blank">
-  <i class="fab fa-linkedin"></i> Connect on LinkedIn
+<div class="two-col-sidebar">
+<div class="contact-card">
+<h3>Let's Connect</h3>
+<p>I'm seeking product management or product-focused roles where I can work closely with design and engineering teams.</p>
+<a href="https://www.linkedin.com/in/jordan-faust-5a1028207" class="btn btn-primary" target="_blank" style="width: 100%; justify-content: center;">
+<i class="fab fa-linkedin"></i> LinkedIn
 </a>
-<a href="https://github.com/jordanfaust15" class="btn btn-outline-dark" target="_blank">
-  <i class="fab fa-github"></i> View GitHub
+<div style="margin-top: 1rem;">
+<a href="https://github.com/jordanfaust15" class="btn btn-outline-dark" target="_blank" style="width: 100%; justify-content: center;">
+<i class="fab fa-github"></i> GitHub
 </a>
+</div>
+</div>
+</div>
+</div>
