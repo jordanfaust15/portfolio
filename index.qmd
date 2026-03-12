@@ -53,4 +53,12 @@ A tool for capturing everyday frustrations to identify startup opportunities. Bu
 [Live Demo](https://prototypes-indol.vercel.app/){.btn .btn-outline-primary target="_blank"}
 :::
 
+::: {.g-col-12 .g-col-md-6}
+### [Bankaroo](projects/project-4.qmd)
+A kids' financial literacy app that turns parents into a simulated bank—featuring child accounts, savings goals, allowance scheduling, and real-time balance updates.
+
+[View Project](projects/project-4.qmd){.btn .btn-primary}
+[Live Demo](https://bankaroo-zeta.vercel.app/){.btn .btn-outline-primary target="_blank"}
+:::
+
 :::
