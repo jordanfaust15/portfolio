@@ -1,25 +1,39 @@
 ---
 title: "Portfolio"
+toc: false
 ---
 
-::: {.hero-banner}
+```{=html}
+<div class="hero-full">
+  <div class="hero-watermark">PORTFOLIO</div>
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>Product <em>Builder</em> <span class="star">&#10038;</span></h1>
+      <p class="hero-subtitle">I'm Jordan Faust—a strategic management student at BYU focused on building user-centered products at the intersection of business, design, and emerging technology.</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/jordan-faust-5a1028207" class="social-link" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/jordanfaust15" class="social-link" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="profile-container">
+        <img src="images/Faust,_Jordan.jpg" alt="Jordan Faust">
+        <div class="profile-border"></div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <span>Scroll to explore</span>
+    <i class="fas fa-chevron-down"></i>
+  </div>
+</div>
+```
 
-<img src="images/profile.jpg" alt="Jordan Faust" class="rounded-circle">
-
-# Jordan Faust
-
-Product Manager & Builder
-
-<a href="https://www.linkedin.com/in/jordan-faust-5a1028207" class="btn btn-primary" target="_blank">
-  <i class="fab fa-linkedin"></i> LinkedIn
-</a>
-<a href="https://github.com/jordanfaust15" class="btn btn-outline-primary" target="_blank">
-  <i class="fab fa-github"></i> GitHub
-</a>
-
-:::
-
-## Featured Projects
+## Featured Projects <span class="star star-small">&#10038;</span>
 
 ::: {.grid}
 
@@ -27,7 +41,7 @@ Product Manager & Builder
 ### [Scripture Study](projects/project-2.qmd)
 A study companion with an illuminated manuscript aesthetic—featuring streak tracking, guided studies, journaling, and progress visualization.
 
-[View Project →](projects/project-2.qmd){.btn .btn-primary}
+[View Project](projects/project-2.qmd){.btn .btn-primary}
 [Live Demo](https://scripture-study-kohl.vercel.app/){.btn .btn-outline-primary target="_blank"}
 :::
 
@@ -35,7 +49,7 @@ A study companion with an illuminated manuscript aesthetic—featuring streak tr
 ### [Problem Tracker](projects/project-3.qmd)
 A tool for capturing everyday frustrations to identify startup opportunities. Built on the principle that the best ideas come from personal pain points.
 
-[View Project →](projects/project-3.qmd){.btn .btn-primary}
+[View Project](projects/project-3.qmd){.btn .btn-primary}
 [Live Demo](https://prototypes-indol.vercel.app/){.btn .btn-outline-primary target="_blank"}
 :::
 
