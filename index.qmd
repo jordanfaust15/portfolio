@@ -9,7 +9,7 @@ toc: false
   <div class="hero-content">
     <div class="hero-text">
       <h1>Product <em>Builder</em> <span class="star">&#10038;</span></h1>
-      <p class="hero-subtitle">I'm Jordan Faust—a strategic management student at BYU focused on building user-centered products at the intersection of business, design, and emerging technology.</p>
+      <p class="hero-subtitle">I'm Jordan Faust—a product and AI builder studying strategic management at BYU. I lead the AI Builder Program at Leland and independently ship Bankaroo, a live fintech app for families.</p>
       <div class="social-links">
         <a href="https://www.linkedin.com/in/jordan-faust-5a1028207" class="social-link" target="_blank" aria-label="LinkedIn">
           <i class="fab fa-linkedin-in"></i>

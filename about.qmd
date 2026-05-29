@@ -7,7 +7,7 @@ toc: false
 
 # Hello, I'm *Jordan* <span class="star">&#10038;</span>
 
-Strategic Management · Product · Design
+Strategic Management · Product · AI
 
 :::
 
@@ -16,16 +16,44 @@ Strategic Management · Product · Design
 
 ## Background
 
-I am currently studying Strategic Management at the BYU Marriott School of Business, with a focus on product- and project-oriented work at the intersection of business, design, and emerging technology. Through coursework and hands-on projects, I have learned to approach problems by first understanding users and context, then translating those insights into scalable systems, tools, and experiences.
+I'm a strategic management student at BYU Marriott, graduating April 2027, and I currently lead product and AI at Leland—where I design and run the AI Builder Program (AIBP), a cohort-based course teaching professionals to build production-ready AI workflows. I also independently build and ship Bankaroo, a live fintech app helping families manage kids' finances.
 
-My interest in product management comes from turning ambiguity into clarity. I enjoy defining problems, collaborating across disciplines, and building thoughtful solutions that reduce friction and create real value. I am especially drawn to products that empower users, leverage AI and automation, and are grounded in empathy and strong design.
+I'm drawn to product work at the intersection of user empathy, AI, and design. I approach problems by starting with real user needs, then translating those insights into systems and experiences that create lasting value. I bring hands-on experience across the PM toolkit: user research, roadmap prioritization, iterative shipping, and cross-functional collaboration—earned through building products with real users.
 
 ## Experience <span class="star star-small">&#10038;</span>
 
 <div class="experience-card highlight">
 <div class="experience-header">
+<h3>Product & AI</h3>
+<span class="experience-date">Feb 2026 – Present</span>
+</div>
+<p class="experience-company">Leland</p>
+<ul>
+<li>Design and run the AI Builder Program (AIBP), a cohort-based course teaching professionals to build production-ready AI workflows and automation tools</li>
+<li>Own the full product lifecycle: curriculum design, user research, session delivery, and iterative improvement based on cohort feedback</li>
+<li>Build and deploy AI-powered tools and automations that support course delivery and improve participant outcomes</li>
+<li>Collaborate cross-functionally with design and engineering to continuously improve the AIBP product experience</li>
+</ul>
+</div>
+
+<div class="experience-card">
+<div class="experience-header">
+<h3>Founder & Product Lead</h3>
+<span class="experience-date">Jan 2026 – Present</span>
+</div>
+<p class="experience-company">Bankaroo</p>
+<ul>
+<li>Designed and shipped a live fintech app that helps families manage kids' finances through a parent-as-bank model, with real users and active accounts</li>
+<li>Own the full product stack: user research, roadmap, UI/UX design, and continuous iteration based on user feedback</li>
+<li>Built core features including child accounts, savings goals, allowance scheduling, and real-time balance tracking</li>
+<li>Manage all product and operational decisions independently, from architecture to launch and ongoing support</li>
+</ul>
+</div>
+
+<div class="experience-card">
+<div class="experience-header">
 <h3>Product Management Intern</h3>
-<span class="experience-date">Mar 2025 – Present</span>
+<span class="experience-date">Mar 2025 – Feb 2026</span>
 </div>
 <p class="experience-company">Enhanced AI</p>
 <ul>
@@ -79,7 +107,7 @@ My interest in product management comes from turning ambiguity into clarity. I e
 
 <div class="experience-card">
 <h3>Bachelor of Science in Strategic Management</h3>
-<p class="experience-company">Brigham Young University, Marriott School of Business · Expected 2026</p>
+<p class="experience-company">Brigham Young University, Marriott School of Business · Expected April 2027</p>
 <ul>
 <li><strong>Minor:</strong> Anthropology</li>
 <li><strong>GPA:</strong> 3.76 / 4.00</li>
@@ -91,6 +119,14 @@ My interest in product management comes from turning ambiguity into clarity. I e
 ## Skills <span class="star star-small">&#10038;</span>
 
 <div class="skills-grid">
+<div class="skill-item">
+<i class="fas fa-robot"></i>
+<span>AI Workflows</span>
+</div>
+<div class="skill-item">
+<i class="fas fa-project-diagram"></i>
+<span>Roadmapping</span>
+</div>
 <div class="skill-item">
 <i class="fas fa-database"></i>
 <span>SQL</span>
@@ -136,7 +172,7 @@ My interest in product management comes from turning ambiguity into clarity. I e
 <div class="two-col-sidebar">
 <div class="contact-card">
 <h3>Let's Connect</h3>
-<p>I'm seeking product management or product-focused roles where I can work closely with design and engineering teams.</p>
+<p>I'm a PM and AI builder seeking product roles where I can drive user-centered innovation at the intersection of AI, design, and engineering.</p>
 <a href="https://www.linkedin.com/in/jordan-faust-5a1028207" class="btn btn-primary" target="_blank" style="width: 100%; justify-content: center;">
 <i class="fab fa-linkedin"></i> LinkedIn
 </a>
